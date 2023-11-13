@@ -1,6 +1,9 @@
 import Tech from "./(home)/Tech";
 import Travel from "./(home)/Travel";
 import Trending from "./(home)/Trending";
+import Other from "./(shared)/Other";
+import Sidebar from "./(shared)/Sidebar";
+import Subscribe from "./(shared)/Subscribe";
 
 export default function Home() {
   return (
@@ -10,13 +13,13 @@ export default function Home() {
         <div className="basis-3/4">
           <Tech />
           <Travel />
-          {/* <Other /> */}
+          <Other />
           <div className="hidden md:block">
-            {/* <Subscribe /> */}
+            <Subscribe />
           </div>
         </div>
         <div className="basis-1/4">
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
       </div>
     </main>
